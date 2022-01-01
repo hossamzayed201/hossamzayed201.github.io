@@ -62,7 +62,7 @@ ul {
 .mainTitle:hover {
   color: white;
   border: 1px solid white;
-  transition-delay: 0.5s;
+  transition-delay: 0.2s;
 
 }
 .mainTitle::after,
@@ -85,11 +85,11 @@ left: -30px;
 }
 .mainTitle:hover::after {
   z-index: -1;
-  animation: right-move 0.5s linear forwards;
+  animation: right-move 0.2s linear forwards;
 }
 .mainTitle:hover::before {
   z-index: -1;
-  animation: left-move 0.5s linear forwards;
+  animation: left-move 0.2s linear forwards;
 }
 .spikes {
   position: relative;
